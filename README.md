@@ -1,7 +1,7 @@
 # Working-Safety-Monitoring-Using-Yolov10-High-level-Object-detection
 # YOLOv10 Helmet Safety Detection
 <p align="center">
-  <img src="/workspaces/Working-Safety-Monitoring-Using-Yolov10-High-level-Object-detection-/description.png" align="middle" width = "1000" />
+  <img src="description.png" align="middle" width = "1000" />
 </p>
 This project aims to detect workers wearing safety helmets using the YOLOv10 model. The project involves setting up the environment, using pre-trained models, and fine-tuning YOLOv10 on a custom dataset.
 
@@ -70,7 +70,7 @@ This project uses YOLOv10 for object detection, specifically focusing on detecti
     model.val(data=YAML_PATH, imgsz=IMG_SIZE, split='test')
 ## Result: Picture with bounding box
 <p align="center">
-  <img src="/workspaces/Working-Safety-Monitoring-Using-Yolov10-High-level-Object-detection-/result.png" align="middle" width = "500" />
+  <img src="result.png" align="middle" width = "500" />
 </p>
 
 
